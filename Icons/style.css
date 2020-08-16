@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?oz0e09');
+  src:  url('fonts/icomoon.eot?oz0e09#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?oz0e09') format('truetype'),
+    url('fonts/icomoon.woff?oz0e09') format('woff'),
+    url('fonts/icomoon.svg?oz0e09#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-android1:before {
+  content: "\e904";
+  color: #3ddc84;
+}
+.icon-apple:before {
+  content: "\e905";
+  color: #999;
+}
+.icon-applemusic:before {
+  content: "\e906";
+  font-size: 30px;
+  position: relative;
+  top: 7px;
+  color: white;
+}
+.icon-dev-dot-to:before {
+  content: "\e900";
+}
+.icon-github1:before {
+  content: "\e907";
+}
+.icon-home3:before {
+  content: "\e902";
+}
+.icon-images:before {
+  content: "\e90e";
+}
+.icon-profile:before {
+  content: "\e923";
+}
+.icon-files-empty:before {
+  content: "\e925";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-phone:before {
+  content: "\e942";
+  font-size: 30px;
+  position: relative;
+  top: 7px;
+  color: white;
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-bubbles3:before {
+  content: "\e96f";
+}
+.icon-user:before {
+  content: "\e971";
+  font-size: 30px;
+  position: relative;
+  top: 7px;
+  color: white;
+}
+.icon-user-plus:before {
+  content: "\e973";
+}
+.icon-user-minus:before {
+  content: "\e974";
+}
+.icon-quotes-left:before {
+  content: "\e977";
+}
+.icon-quotes-right:before {
+  content: "\e978";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-trophy:before {
+  content: "\e99e";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-happy2:before {
+  content: "\e9e0";
+}
+.icon-wink:before {
+  content: "\e9e7";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-checkmark2:before {
+  content: "\ea11";
+}
+.icon-enter:before {
+  content: "\ea13";
+}
+.icon-exit:before {
+  content: "\ea14";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-telegram:before {
+  content: "\ea95";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+.icon-twitch:before {
+  content: "\ea9f";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}

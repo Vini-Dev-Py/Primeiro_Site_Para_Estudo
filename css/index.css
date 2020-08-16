@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+	background-color: #CFCFCF;
+	color: rgba(0, 0, 0, 1);
+}
+
+#cabecalho div.primeiro-cabecalho {
+	background-color: #1C1C1C;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    height: 100px;
+}
+
+#cabecalho div.primeiro-cabecalho input.input-principal {
+    width: 25%;
+    height: 35px;
+    transition: ease-in-out, width .35s ease-in-out;
+    position: relative;
+    left: 20%;
+    top: 30px;
+    border: 3px solid #FF4500;
+    padding-left: 10px;
+}
+
+#cabecalho div.primeiro-cabecalho input.input-principal:focus {
+    outline: none;
+}
+
+#cabecalho div.primeiro-cabecalho nav#menu {
+    display: block;
+}
+
+#cabecalho > div > div.primeiro-cabecalho > nav > ul {
+    list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 15px;
+	left: 750px;
+}
+
+#cabecalho > div > div.primeiro-cabecalho > nav > ul > li > a {
+    display: inline-block;
+	color: white;
+	margin: 8px;
+	transition: background-color 1s;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#cabecalho div.primeiro-cabecalho ul.lista-Icons {
+    float:left;
+    list-style: none;
+}
+
+#cabecalho div.primeiro-cabecalho ul.lista-Icons li {
+    position:relative;
+    float:left;
+    padding: 10px;
+}
+
+#cabecalho div.segundo-cabecalho {
+	background-color: #B5B5B5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    height: 80px;
+}
+
+#cabecalho div.segundo-cabecalho h1 {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+    text-transform: uppercase;
+    color: #1C1C1C;
+}
